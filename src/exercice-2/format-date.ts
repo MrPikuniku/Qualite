@@ -1,5 +1,7 @@
 export type FormatDateConfig = {
-    affichePoints: boolean
+    afficheHeure: boolean,
+    affichePoints: boolean,
+    separateur: string
 };
 
 export function formatDate(d?: Date, config?: FormatDateConfig) : string {
