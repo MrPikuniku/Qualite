@@ -43,10 +43,10 @@ describe(("Test de la fonction formatDate()"), function(){
     })
 
 
-    /*test("test pour gérer les erreur", function(){
-        expect(formatDate(jour)).toEqual(jour.`` toDateString());
+    test("test pour gérer les erreur", function(){
+        expect(formatDate(lundi)).toEqual(lundi.toDateString());
 
-    })*/
+    })
 
     
 });

@@ -5,8 +5,7 @@ export type FormatDateConfig = {
 };
 
 export function formatDate(d?: Date, config?: FormatDateConfig) : string {
-    if (d!=null ){
-        
+    if(d != null ){    
         if(config?.afficheHeure==true){
             if(config?.affichePoints==true){
                 return `${d.toLocaleDateString('fr-FR')} ${config?.separateur} ${d.getHours()}:${d.getMinutes()}`;
